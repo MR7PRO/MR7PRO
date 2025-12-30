@@ -1,10 +1,10 @@
 <!-- =========================
      MR7PRO | GitHub Profile
-     CLEAN PRO VERSION
+     STABLE PRO VERSION
      ========================= -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00f5ff,50:7c00ff,100:ff00ea&height=130&section=header&text=Ayham%20El%20Hour&fontSize=38&fontColor=ffffff&animation=fadeIn"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00f5ff,50:7c00ff,100:ff00ea&height=140&section=header&text=Ayham%20El%20Hour&fontSize=40&fontColor=ffffff&animation=fadeIn"/>
 </p>
 
 <h3 align="center">
@@ -12,7 +12,7 @@
 </h3>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=MR7PRO&label=Profile%20Views&color=00f5ff&style=flat" />
+  <img src="https://komarev.com/ghpvc/?username=MR7PRO&label=Profile%20Views&color=00f5ff&style=flat"/>
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&center=true&vCenter=true&width=650&lines=Web+Developer+from+Palestine;React+%7C+Angular+%7C+UI%2FUX;Clean+Code+%26+Modern+Design;Always+Learning+New+Technologies" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&center=true&vCenter=true&width=650&lines=Web+Developer+from+Palestine;React+%7C+Angular+%7C+UI%2FUX;Clean+Code+%26+Modern+Design;Always+Learning+New+Technologies"/>
 </p>
 
 ---
@@ -37,9 +37,9 @@
 
 ## 🧐 About Me
 - 💻 Front-End Developer (**React / Angular**)
-- 🎨 UI/UX Designer with modern & clean style
+- 🎨 UI/UX Designer with clean & modern taste
 - 🚀 Founder & Manager at **NetPlex**
-- 🌱 Passionate about learning new technologies
+- 🌱 Always learning new technologies
 - 🗣️ Arabic (Native) • English (C1 Reading/Writing – B2 Speaking)
 
 ---
@@ -62,17 +62,7 @@ Islamic University of Gaza – North Branch
 
 ## 🧰 Tech Stack
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,sass,bootstrap,tailwind,js,ts,react,angular,nodejs,php,laravel,java,mysql,wordpress,git,figma&perline=8" />
-</p>
-
----
-
-## 🧠 Skills & Focus Areas
-<p align="center">
-  <img src="https://img.shields.io/badge/AI%20Enthusiast-00f5ff?style=for-the-badge&logo=openai&logoColor=000"/>
-  <img src="https://img.shields.io/badge/Web%20Development-111?style=for-the-badge&logo=googlechrome&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Front--End%20Developer-7c00ff?style=for-the-badge&logo=react&logoColor=white"/>
-  <img src="https://img.shields.io/badge/UI%2FUX%20Designer-ff00ea?style=for-the-badge&logo=figma&logoColor=white"/>
+  <img src="https://skillicons.dev/icons?i=html,css,sass,bootstrap,tailwind,js,ts,react,angular,nodejs,php,laravel,java,mysql,wordpress,git,figma&perline=8"/>
 </p>
 
 ---
@@ -81,7 +71,6 @@ Islamic University of Gaza – North Branch
 
 ### 🌐 IP Master
 🔹 IP management & monitoring system  
-🔧 React • MySQL • Backend APIs  
 🔗 https://github.com/MR7PRO/IP-Master.git  
 🌍 https://ip-master-pro-v6.netlify.app/
 
@@ -89,7 +78,6 @@ Islamic University of Gaza – North Branch
 
 ### 🎬 Movie Streaming Platform
 🔹 Modern responsive movie website  
-🔧 HTML • CSS • JavaScript  
 🔗 https://github.com/MR7PRO/Movie-Streaming.git  
 🌍 https://livhast.netlify.app/
 
@@ -101,14 +89,10 @@ Islamic University of Gaza – North Branch
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Stats (Guaranteed)
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MR7PRO&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MR7PRO&layout=compact&theme=tokyonight&hide_border=true"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=MR7PRO&show_icons=true&theme=tokyonight&hide_border=true"/>
 </p>
 
 <p align="center">
@@ -125,12 +109,10 @@ Islamic University of Gaza – North Branch
 
 ---
 
-## 🏆 GitHub Trophies
+## 🏅 GitHub Profile Summary
 
 <p align="center">
-  <img 
-    src="https://github-profile-trophy.vercel.app/?username=MR7PRO&theme=darkhub&no-frame=true&margin-w=10"
-  />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MR7PRO&theme=tokyonight"/>
 </p>
 
 ---
@@ -149,5 +131,5 @@ Islamic University of Gaza – North Branch
 </p>
 
 <!-- =========================
-     END — CLEAN PRO VERSION
+     END — STABLE PRO VERSION
      ========================= -->
