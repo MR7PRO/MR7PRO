@@ -1,144 +1,127 @@
 <!-- =========================
-     Ayham El Hour | README
+     Ayham El Hour | GitHub Profile
      ========================= -->
 
 <h2 align="center">Hey 👋, I'm Ayham El Hour</h2>
 <p align="center">
-  <b>Web Developer</b> • <b>UI/UX</b> • <b>Digital Marketing</b> • <b>Front-End (React / Angular)</b>
+  <b>Web Developer</b> • <b>UI/UX Designer</b> • <b>Digital Marketing Specialist</b>
 </p>
 
 <p align="center">
-  <a href="https://ayhamcv.netlify.app/" target="_blank">🌐 Portfolio</a>
-  •
-  <a href="mailto:ayham400700@gmail.com">📩 Email</a>
-  •
+  <a href="https://ayhamcv.netlify.app/" target="_blank">🌐 Portfolio</a> •
+  <a href="mailto:ayham400700@gmail.com">📩 Email</a> •
   <a href="mailto:ayham800400@gmail.com">📩 Email 2</a>
 </p>
 
 <p align="center">
-  <!-- ضع روابطك الحقيقية هنا -->
   <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a> •
-  <a href="https://twitter.com/" target="_blank">Twitter/X</a> •
-  <a href="https://www.youtube.com/" target="_blank">YouTube</a> •
-  <a href="https://www.facebook.com/" target="_blank">Facebook</a> •
-  <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+  <a href="https://twitter.com/" target="_blank">Twitter</a> •
+  <a href="https://www.instagram.com/" target="_blank">Instagram</a> •
+  <a href="https://www.facebook.com/" target="_blank">Facebook</a>
 </p>
 
 <br/>
 
-<img align="right" alt="GIF" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="340"/>
+<img align="right" alt="coding" width="340"
+src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
 
-### 🧐 More About Me
-- 🔥 Motivated **Web Developer & Digital Marketing Specialist** focused on building user-friendly platforms.
-- 🎨 Strong interest in **UI/UX** and clean, responsive interfaces.
-- 🧠 Always learning and improving (Web, AI, and modern tooling).
-- 🚀 Founder & Manager at **NetPlex** (Digital Marketing • Web Development • Software Services).
-- 🗣️ Languages: **Arabic (Native)** • **English (C1 reading/writing, B2 speaking)**
+### 🧐 About Me
+- 💻 Web Developer specialized in **Front-End (React / Angular)**
+- 🎨 Passionate about **UI/UX & clean design**
+- 🚀 Founder & Manager at **NetPlex** (Digital Marketing & Web Solutions)
+- 🌱 Always learning new technologies and improving my skills
+- 🗣️ Languages: Arabic (Native) • English (C1 Reading/Writing – B2 Speaking)
 
-<br/>
+---
 
-### 🎓 Education & Training
-- 🎓 **BSc in Web Development (3rd Year)** — Islamic University of Gaza (North Branch) | GPA: **91.2**
-- 🧑‍💻 **Vocational Training (Web Development)** — Gaza Works for the World × Mujtama’ Taqat (2025–Present)
+### 🎓 Education
+- 🎓 **BSc in Web Development (3rd Year)**  
+  Islamic University of Gaza – North Branch  
+  **GPA: 91.2**
 
-<br/>
+---
 
 ### 💼 Experience
-- **Front-End Developer (Volunteer / Remote)** — Taqat Community (Digiwork Initiative) | 2025–Present  
-- **Front-End & UI/UX Designer** — Al-Awda Hospital (Southern Branch) | 2024–Present  
-- **IT Support Specialist** — Aisha Charity Organization | 2024–2025  
-- **Developer & Designer** — Palestine Educational Center | 2023–2024  
-- **Marketing Officer** — Al-Basheer Cleaning Company | 2019–Present  
+- **Front-End Developer (Remote / Volunteer)** – Taqat Community (2025–Present)
+- **Front-End & UI/UX Designer** – Al-Awda Hospital (2024–Present)
+- **IT Support Specialist** – Aisha Charity Organization (2024–2025)
+- **Web Developer & Designer** – Palestine Educational Center (2023–2024)
+- **Marketing Officer** – Al-Basheer Cleaning Company (2019–Present)
 
-<br/>
+---
 
 ### 🔨 Languages & Tools
 <p>
-  <!-- Icons via skillicons -->
   <img src="https://skillicons.dev/icons?i=html,css,sass,bootstrap,tailwind,js,ts,react,angular,nodejs,php,laravel,java,mysql,wordpress,git,figma&perline=8" />
 </p>
 
-**Also familiar with:** Project Management • SEO • PPC • Social Media Management • IT Support & OS Installation
-
-<br/>
+---
 
 ### 📌 Featured Projects
-<table>
-  <tr>
-    <td width="50%">
-      <h3>🌐 IP Master</h3>
-      <p>Web app to manage & monitor IP addresses (CRUD, search/filter, dashboard).</p>
-      <p>
-        <a href="https://github.com/MR7PRO/IP-Master.git" target="_blank">Repo</a> •
-        <a href="https://ip-master-pro-v6.netlify.app/" target="_blank">Live</a> •
-        <a href="https://youtu.be/kmDYLulSGH0" target="_blank">Demo</a>
-      </p>
-      <p><b>Tech:</b> React • Node/PHP/Java (varies) • MySQL</p>
-    </td>
-    <td width="50%">
-      <h3>🎬 Movie-Streaming</h3>
-      <p>Responsive movie streaming UI with browsing + search + filters + modern UX.</p>
-      <p>
-        <a href="https://github.com/MR7PRO/Movie-Streaming.git" target="_blank">Repo</a> •
-        <a href="https://livhast.netlify.app/" target="_blank">Live</a>
-      </p>
-      <p><b>Tech:</b> HTML • CSS • JavaScript</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>🚀 WekiCode — Spark Hub</h3>
-      <p>Developer-focused learning + community + opportunities platform built with Vibe Coding (Lovable).</p>
-      <p>
-        <a href="https://wekicode-spark-hub.lovable.app/" target="_blank">Live</a>
-      </p>
-      <p><b>Focus:</b> UX for learning flows • Engagement • Responsive UI</p>
-    </td>
-    <td width="50%">
-      <h3>📚 Mini Library Management System</h3>
-      <p>Desktop app to manage books, members, borrowing/returning (CRUD + MySQL).</p>
-      <p>
-        <a href="https://github.com/MR7PRO/MiniLibraryManagementSystem.git" target="_blank">Repo</a>
-      </p>
-      <p><b>Tech:</b> Java (OOP) • MySQL</p>
-    </td>
-  </tr>
-</table>
 
-<br/>
+#### 🌐 IP Master
+- IP management & monitoring system
+- Tech: React • MySQL • Backend APIs  
+🔗 Repo: https://github.com/MR7PRO/IP-Master.git  
+🌍 Live: https://ip-master-pro-v6.netlify.app/
+
+---
+
+#### 🎬 Movie Streaming Website
+- Responsive movie browsing platform
+- Tech: HTML • CSS • JavaScript  
+🔗 Repo: https://github.com/MR7PRO/Movie-Streaming.git  
+🌍 Live: https://livhast.netlify.app/
+
+---
+
+#### 🚀 WekiCode – Spark Hub
+- Developer learning & community platform  
+🌍 Live: https://wekicode-spark-hub.lovable.app/
+
+---
 
 ### 📊 GitHub Stats
+
 <p align="center">
-  <!-- غيّر MR7PRO إذا كان يوزرك مختلف -->
-  <img src="https://github-readme-stats.vercel.app/api?username=MR7PRO&show_icons=true&hide_border=true" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MR7PRO&layout=compact&hide_border=true" height="150" />
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=MR7PRO&show_icons=true&theme=transparent&hide_border=true"
+    height="160"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=MR7PRO&layout=compact&theme=transparent&hide_border=true"
+    height="160"
+  />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=MR7PRO&hide_border=true" height="170" />
+  <img
+    src="https://streak-stats.demolab.com?user=MR7PRO&theme=transparent&hide_border=true"
+    height="170"
+  />
 </p>
 
-<br/>
+---
 
-### 🏆 Highlights
-- 🥇 First Place — Game Development (Ministry of Education – Palestine)
-- 🥈 Second Place — Documentary Film Production
-- 🥇 Top of the Class — Web Development Program (GPA 91.2)
+### 🏆 Achievements
+- 🥇 First Place – Game Development Competition
+- 🥈 Second Place – Documentary Film Production
+- 🥇 Top Student – Web Development Program
 - 📜 55+ Certificates of Appreciation
-- ✅ ICDL — International Computer Driving Licence
+- ✅ ICDL Certified
 
-<br/>
+---
 
 ### 🎯 Interests
-- 🎮 Gaming • 🎥 Movies & series • ⚽ Football • 🏊 Swimming • 🤖 AI trends
+🎮 Gaming • 🎥 Movies & Series • ⚽ Football • 🏊 Swimming • 🤖 AI & Tech Trends
 
-<br/>
+---
 
-### 🤝 Let’s Connect
+### 🤝 Contact Me
 - 🌐 Portfolio: https://ayhamcv.netlify.app/
 - 📩 Email: ayham400700@gmail.com
-- 💬 Open to collaborations and exciting web projects!
+- 💬 Always open to collaborations and freelance work
 
 <!-- =========================
-     End
+     End of README
      ========================= -->
