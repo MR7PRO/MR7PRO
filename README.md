@@ -1,6 +1,6 @@
 <!-- =========================
      MR7PRO | GitHub Profile
-     ULTRA PRO MAX++
+     CLEAN PRO VERSION
      ========================= -->
 
 <p align="center">
@@ -68,7 +68,6 @@ Islamic University of Gaza – North Branch
 ---
 
 ## 🧠 Skills & Focus Areas
-
 <p align="center">
   <img src="https://img.shields.io/badge/AI%20Enthusiast-00f5ff?style=for-the-badge&logo=openai&logoColor=000"/>
   <img src="https://img.shields.io/badge/Web%20Development-111?style=for-the-badge&logo=googlechrome&logoColor=white"/>
@@ -105,15 +104,23 @@ Islamic University of Gaza – North Branch
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MR7PRO&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=MR7PRO&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MR7PRO&layout=compact&theme=tokyonight&hide_border=true" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MR7PRO&layout=compact&theme=tokyonight&hide_border=true"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=MR7PRO&theme=tokyonight&hide_border=true" height="170"/>
+  <img src="https://streak-stats.demolab.com?user=MR7PRO&theme=tokyonight&hide_border=true"/>
+</p>
+
+---
+
+## 📈 GitHub Activity Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MR7PRO&theme=tokyo-night&hide_border=true"/>
 </p>
 
 ---
@@ -121,15 +128,9 @@ Islamic University of Gaza – North Branch
 ## 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=MR7PRO&theme=tokyonight&no-frame=true&row=1&column=7"/>
-</p>
-
----
-
-## 🐍 Contribution Snake
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/MR7PRO/MR7PRO/output/github-contribution-grid-snake-dark.svg"/>
+  <img 
+    src="https://github-profile-trophy.vercel.app/?username=MR7PRO&theme=darkhub&no-frame=true&margin-w=10"
+  />
 </p>
 
 ---
@@ -148,5 +149,5 @@ Islamic University of Gaza – North Branch
 </p>
 
 <!-- =========================
-     END — ULTRA PRO MAX++
+     END — CLEAN PRO VERSION
      ========================= -->
