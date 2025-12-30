@@ -1,127 +1,135 @@
 <!-- =========================
-     Ayham El Hour | GitHub Profile
+     MR7PRO | GitHub Profile
      ========================= -->
 
-<h2 align="center">Hey 👋, I'm Ayham El Hour</h2>
+<h1 align="center">
+  Hi 👋, I'm Ayham El Hour
+</h1>
+
+<h3 align="center">
+  💻 Web Developer | 🎨 UI/UX Designer | 📈 Digital Marketing Specialist
+</h3>
+
 <p align="center">
-  <b>Web Developer</b> • <b>UI/UX Designer</b> • <b>Digital Marketing Specialist</b>
+  <img src="https://komarev.com/ghpvc/?username=MR7PRO&label=Profile%20Views&color=0e75b6&style=flat" alt="MR7PRO" />
 </p>
 
 <p align="center">
-  <a href="https://ayhamcv.netlify.app/" target="_blank">🌐 Portfolio</a> •
-  <a href="mailto:ayham400700@gmail.com">📩 Email</a> •
-  <a href="mailto:ayham800400@gmail.com">📩 Email 2</a>
+  <a href="https://ayhamcv.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=vercel&logoColor=white"/>
+  </a>
+  <a href="mailto:ayham400700@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Freelance-Available-brightgreen?style=for-the-badge"/>
+  </a>
 </p>
+
+---
 
 <p align="center">
-  <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a> •
-  <a href="https://twitter.com/" target="_blank">Twitter</a> •
-  <a href="https://www.instagram.com/" target="_blank">Instagram</a> •
-  <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=600&lines=Web+Developer+from+Palestine;React+%7C+Angular+%7C+UI%2FUX;Always+Learning+New+Technologies;Building+Clean+%26+Scalable+Web+Apps" />
 </p>
 
-<br/>
+---
 
-<img align="right" alt="coding" width="340"
-src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
+<img align="right" width="360" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
 
-### 🧐 About Me
-- 💻 Web Developer specialized in **Front-End (React / Angular)**
-- 🎨 Passionate about **UI/UX & clean design**
-- 🚀 Founder & Manager at **NetPlex** (Digital Marketing & Web Solutions)
-- 🌱 Always learning new technologies and improving my skills
-- 🗣️ Languages: Arabic (Native) • English (C1 Reading/Writing – B2 Speaking)
+## 🧐 About Me
+- 💻 Front-End Developer (**React / Angular**)
+- 🎨 UI/UX Designer with clean & modern taste
+- 🚀 Founder & Manager at **NetPlex**
+- 🌱 Learning advanced web & AI tools
+- 🗣️ Arabic (Native) • English (C1 / B2)
 
 ---
 
-### 🎓 Education
-- 🎓 **BSc in Web Development (3rd Year)**  
-  Islamic University of Gaza – North Branch  
-  **GPA: 91.2**
+## 🎓 Education
+🎓 **BSc in Web Development (3rd Year)**  
+Islamic University of Gaza – North Branch  
+**GPA: 91.2**
 
 ---
 
-### 💼 Experience
-- **Front-End Developer (Remote / Volunteer)** – Taqat Community (2025–Present)
-- **Front-End & UI/UX Designer** – Al-Awda Hospital (2024–Present)
-- **IT Support Specialist** – Aisha Charity Organization (2024–2025)
-- **Web Developer & Designer** – Palestine Educational Center (2023–2024)
-- **Marketing Officer** – Al-Basheer Cleaning Company (2019–Present)
+## 💼 Experience
+- Front-End Developer (Remote) — **Taqat Community**
+- UI/UX Designer — **Al-Awda Hospital**
+- IT Support Specialist — **Aisha Charity**
+- Web Developer — **Palestine Educational Center**
+- Marketing Officer — **Al-Basheer Company**
 
 ---
 
-### 🔨 Languages & Tools
-<p>
+## 🧰 Tech Stack
+
+<p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,sass,bootstrap,tailwind,js,ts,react,angular,nodejs,php,laravel,java,mysql,wordpress,git,figma&perline=8" />
 </p>
 
 ---
 
-### 📌 Featured Projects
+## 🚀 Featured Projects
 
-#### 🌐 IP Master
-- IP management & monitoring system
-- Tech: React • MySQL • Backend APIs  
-🔗 Repo: https://github.com/MR7PRO/IP-Master.git  
-🌍 Live: https://ip-master-pro-v6.netlify.app/
+### 🌐 IP Master
+🔹 IP management & monitoring system  
+🔧 React • MySQL • Backend APIs  
 
----
-
-#### 🎬 Movie Streaming Website
-- Responsive movie browsing platform
-- Tech: HTML • CSS • JavaScript  
-🔗 Repo: https://github.com/MR7PRO/Movie-Streaming.git  
-🌍 Live: https://livhast.netlify.app/
+🔗 https://github.com/MR7PRO/IP-Master.git  
+🌍 https://ip-master-pro-v6.netlify.app/
 
 ---
 
-#### 🚀 WekiCode – Spark Hub
-- Developer learning & community platform  
-🌍 Live: https://wekicode-spark-hub.lovable.app/
+### 🎬 Movie Streaming Platform
+🔹 Modern responsive movie website  
+🔧 HTML • CSS • JavaScript  
+
+🔗 https://github.com/MR7PRO/Movie-Streaming.git  
+🌍 https://livhast.netlify.app/
 
 ---
 
-### 📊 GitHub Stats
+### 🚀 WekiCode – Spark Hub
+🔹 Developer learning & community platform  
+
+🌍 https://wekicode-spark-hub.lovable.app/
+
+---
+
+## 📊 GitHub Stats
 
 <p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=MR7PRO&show_icons=true&theme=transparent&hide_border=true"
-    height="160"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=MR7PRO&layout=compact&theme=transparent&hide_border=true"
-    height="160"
-  />
+  <img src="https://github-readme-stats.vercel.app/api?username=MR7PRO&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
 </p>
 
 <p align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=MR7PRO&theme=transparent&hide_border=true"
-    height="170"
-  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MR7PRO&layout=compact&theme=tokyonight&hide_border=true" height="150"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=MR7PRO&theme=tokyonight&hide_border=true" height="170"/>
 </p>
 
 ---
 
-### 🏆 Achievements
-- 🥇 First Place – Game Development Competition
-- 🥈 Second Place – Documentary Film Production
-- 🥇 Top Student – Web Development Program
-- 📜 55+ Certificates of Appreciation
+## 🏆 Achievements
+- 🥇 First Place — Game Development Competition
+- 🥈 Second Place — Documentary Film Production
+- 🥇 Top Student — Web Development Program
+- 📜 55+ Certificates
 - ✅ ICDL Certified
 
 ---
 
-### 🎯 Interests
-🎮 Gaming • 🎥 Movies & Series • ⚽ Football • 🏊 Swimming • 🤖 AI & Tech Trends
+## 🎯 Interests
+🎮 Gaming • 🎥 Movies • ⚽ Football • 🏊 Swimming • 🤖 AI
 
 ---
 
-### 🤝 Contact Me
-- 🌐 Portfolio: https://ayhamcv.netlify.app/
-- 📩 Email: ayham400700@gmail.com
-- 💬 Always open to collaborations and freelance work
+## 🤝 Let's Connect
+📩 **ayham400700@gmail.com**  
+🌐 **https://ayhamcv.netlify.app/**  
 
-<!-- =========================
-     End of README
-     ========================= -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,100:1a1b27&height=120&section=footer"/>
+</p>
