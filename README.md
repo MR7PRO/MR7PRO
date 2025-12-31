@@ -1,6 +1,6 @@
 <!-- =========================
      MR7PRO | GitHub Profile
-     STABLE PRO VERSION
+     FINAL STABLE VERSION
      ========================= -->
 
 <p align="center">
@@ -89,14 +89,20 @@ Islamic University of Gaza – North Branch
 
 ---
 
-## 📊 GitHub Stats (Guaranteed)
+## 📊 GitHub Stats (Stable & Real)
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MR7PRO&show_icons=true&theme=tokyonight&hide_border=true"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MR7PRO&theme=tokyonight"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=MR7PRO&theme=tokyonight&hide_border=true"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MR7PRO&theme=tokyonight"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MR7PRO&theme=tokyonight"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MR7PRO&theme=tokyonight"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MR7PRO&theme=tokyonight&utcOffset=2"/>
 </p>
 
 ---
@@ -105,14 +111,6 @@ Islamic University of Gaza – North Branch
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=MR7PRO&theme=tokyo-night&hide_border=true"/>
-</p>
-
----
-
-## 🏅 GitHub Profile Summary
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MR7PRO&theme=tokyonight"/>
 </p>
 
 ---
@@ -131,5 +129,5 @@ Islamic University of Gaza – North Branch
 </p>
 
 <!-- =========================
-     END — STABLE PRO VERSION
+     END — FINAL STABLE VERSION
      ========================= -->
