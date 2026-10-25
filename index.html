@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1224">
+  <meta name="description" content="مختبر ويب تعليمي تفاعلي لفهم SQL Injection والتشفير وحماية كلمات المرور - يعمل بدون إنترنت.">
+  <title>WebSec Lab | مختبر أمن الويب</title>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/questions.js" defer></script>
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">تجاوز إلى المحتوى</a>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="القائمة الرئيسية">
+      <a class="brand" href="#home" data-go="home" aria-label="WebSec Lab home">
+        <span class="brand-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 3.5 5.4v6.4c0 5.1 3.6 8.6 8.5 10.2 4.9-1.6 8.5-5.1 8.5-10.2V5.4L12 2Z"/><path d="m8.3 12.1 2.4 2.5 5-5.2"/></svg></span>
+        <span><strong>WebSec Lab</strong><small>LEARN · TEST · DEFEND</small></span>
+      </a>
+      <div class="side-caption" data-i18n="labnav">المختبر التفاعلي</div>
+      <nav class="nav-links" aria-label="الأقسام">
+        <button type="button" class="nav-link active" data-go="home"><span class="nav-glyph">⌂</span><span data-i18n="navHome">الرئيسية</span></button>
+        <button type="button" class="nav-link" data-go="sqli"><span class="nav-glyph">⌘</span><span data-i18n="navSqli">مختبر SQL Injection</span></button>
+        <button type="button" class="nav-link" data-go="crypto"><span class="nav-glyph">◇</span><span data-i18n="navCrypto">مختبر التشفير</span></button>
+        <button type="button" class="nav-link" data-go="passwords"><span class="nav-glyph">▣</span><span data-i18n="navHash">حماية كلمات المرور</span></button>
+        <button type="button" class="nav-link" data-go="quiz"><span class="nav-glyph">✓</span><span data-i18n="navQuiz">اختبر معرفتك</span></button>
+        <button type="button" class="nav-link" data-go="about"><span class="nav-glyph">ⓘ</span><span data-i18n="navAbout">عن المشروع</span></button>
+      </nav>
+      <div class="side-spacer"></div>
+      <div class="side-notice"><span class="online-dot"></span><span data-i18n="localPrivacy">محلي بالكامل · بدون إرسال بيانات</span></div>
+      <p class="side-foot">Web Security Educational Toolkit <span>v1.0</span></p>
+    </aside>
+
+    <div class="app-content">
+      <header class="topbar">
+        <div class="mobile-brand"><span class="mini-shield">⬡</span> WebSec Lab</div>
+        <div class="breadcrumbs"><span data-i18n="breadcrumb">WEB SECURITY / INTERACTIVE LEARNING</span></div>
+        <div class="top-actions">
+          <span class="chip-outline" data-i18n="offline">⚡ Offline-friendly</span>
+          <button type="button" id="languageToggle" class="icon-button" aria-label="Switch language">EN</button>
+          <button type="button" id="themeToggle" class="icon-button" aria-label="Toggle dark mode">☀</button>
+        </div>
+      </header>
+      <main id="main" tabindex="-1">
+        <section id="home" class="page active" aria-labelledby="homeTitle">
+          <div class="hero">
+            <div class="hero-copy">
+              <div class="eyebrow"><span class="online-dot"></span> <span data-i18n="heroTag">من المحاضرة إلى التجربة العملية</span></div>
+              <h1 id="homeTitle" data-i18n-html="heroTitle">افهم الثغرة.<br><span>جرّب الحماية.</span></h1>
+              <p data-i18n="heroDesc">مختبر تعليمي مصمم لطلاب أمن الويب: شاهد الفرق بين الكود غير الآمن والكود المحمي، جرّب التشفير الحقيقي، واختبر فهمك — كل ذلك محليًا وبدون حساب.</p>
+              <div class="hero-actions"><button type="button" class="btn btn-primary" data-go="sqli" data-i18n="startLab">ابدأ المختبر ←</button><button type="button" class="btn btn-outline" data-go="quiz" data-i18n="startQuiz">ابدأ التحدي</button></div>
+              <div class="hero-meta"><span>✓ <span data-i18n="noAccount">لا يحتاج حسابًا</span></span><span>✓ <span data-i18n="noData">لا يرسل بياناتك</span></span><span>✓ <span data-i18n="arEn">عربي / English</span></span></div>
+            </div>
+            <div class="hero-art" aria-hidden="true"><div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div><div class="art-logo">{ <span>✓</span> }</div><div class="art-code code-left">SELECT * FROM users<br>WHERE username = ?</div><div class="art-code code-right"><span>●</span> AES-256-GCM<br>✓ VERIFIED</div></div>
+          </div>
+          <div class="section-title"><div><span class="tiny-label" data-i18n="chooseTrack">اختر مسارك</span><h2 data-i18n="learningUnits">3 مختبرات تطبيقية</h2></div><span class="muted" data-i18n="handsOn">تعلّم بالممارسة، وليس بالحفظ</span></div>
+          <div class="lab-cards">
+            <button type="button" class="lab-card" data-go="sqli"><div class="lab-card-icon purple">⌘</div><div class="lab-card-category">01 / WEB ATTACKS</div><h3>SQL Injection</h3><p data-i18n="sqliCard">جرّب نفس البيانات في نظام غير آمن ونظام محمي، وشاهد اختلاف النتيجة.</p><span class="card-arrow" data-i18n="tryDemo">جرّب المحاكاة ←</span></button>
+            <button type="button" class="lab-card" data-go="crypto"><div class="lab-card-icon teal">◇</div><div class="lab-card-category">02 / CRYPTOGRAPHY</div><h3>AES Encryption</h3><p data-i18n="cryptoCard">شفّر رسالة حقيقية، ثم استرجعها بالمفتاح الصحيح، وافهم IV وSalt.</p><span class="card-arrow" data-i18n="tryEncryption">ابدأ التشفير ←</span></button>
+            <button type="button" class="lab-card" data-go="passwords"><div class="lab-card-icon amber">▣</div><div class="lab-card-category">03 / PASSWORD SAFETY</div><h3>Hashing & bcrypt</h3><p data-i18n="hashCard">افهم لماذا SHA-256 وحده ليس مناسبًا لكلمات المرور، ومتى نستخدم bcrypt.</p><span class="card-arrow" data-i18n="exploreHash">استكشف المختبر ←</span></button>
+          </div>
+          <div class="strip"><div><strong data-i18n="nextTitle">مستعد تختبر نفسك؟</strong><p data-i18n="nextDesc">تحديات قصيرة، تصحيح فوري، وتقرير بنتيجتك.</p></div><button type="button" class="btn btn-white" data-go="quiz" data-i18n="goQuiz">ابدأ الاختبار ←</button></div>
+        </section>
+
+        <section id="sqli" class="page" aria-labelledby="sqliTitle" hidden>
+          <div class="page-kicker">LAB 01 <span> / </span> SQL INJECTION</div><h1 id="sqliTitle" class="page-title" data-i18n="sqliHeading">كيف يحدث SQL Injection؟</h1><p class="page-desc" data-i18n="sqliIntro">شغّل نفس محاولة الدخول في نموذجين افتراضيين: الأول يدمج الإدخال في استعلام SQL، والثاني يفصل الأمر عن البيانات باستخدام Prepared Statements.</p>
+          <div class="notice"><strong data-i18n="simBadge">محاكاة تعليمية فقط</strong><span data-i18n="simNote">لا توجد قاعدة بيانات فعلية أو طلبات خارجية. النتائج تحاكي الأمثلة المحددة ولا تمثل محرك SQL حقيقيًا.</span></div>
+          <div class="playgrid">
+            <div class="panel"><div class="panel-head"><span class="panel-symbol">⌨</span><div><h2 data-i18n="inputs">جرّب المدخلات</h2><p data-i18n="inputsHint">كل الحسابات التالية وهمية للتدريب.</p></div></div>
+              <div class="field"><label for="sqlUsername" data-i18n="username">اسم المستخدم</label><input id="sqlUsername" type="text" value="student" spellcheck="false" autocomplete="off" maxlength="160"></div>
+              <div class="field"><label for="sqlPassword" data-i18n="password">كلمة المرور التجريبية</label><input id="sqlPassword" type="text" value="demo123" spellcheck="false" autocomplete="off" maxlength="100"></div>
+              <div class="field"><label data-i18n="quickExamples">أمثلة جاهزة</label><div class="sample-buttons"><button type="button" class="mini-btn" data-sql-preset="valid" data-i18n="validLogin">دخول سليم</button><button type="button" class="mini-btn" data-sql-preset="wrong" data-i18n="wrongLogin">كلمة خاطئة</button><button type="button" class="mini-btn" data-sql-preset="attack" data-i18n="injection">محاولة حقن تعليمية</button></div></div>
+              <button type="button" class="btn btn-primary btn-full" id="sqlRun" data-i18n="runCompare">شغّل المقارنة ←</button>
+            </div>
+            <div class="panel result-panel"><div class="panel-head"><span class="panel-symbol">↗</span><div><h2 data-i18n="comparison">نتيجة المقارنة</h2><p data-i18n="comparisonHint">نفس المدخلات، مع أسلوبين مختلفين.</p></div></div>
+              <div class="result-box bad"><div class="result-label"><strong data-i18n="unsafeCode">كود غير آمن</strong><span class="status-pill bad-pill">UNSAFE</span></div><pre id="unsafeQuery" class="query" dir="ltr"></pre><div id="unsafeResult" class="result-status" role="status"></div></div>
+              <div class="result-box good"><div class="result-label"><strong data-i18n="safeCode">كود محمي</strong><span class="status-pill good-pill">PREPARED</span></div><pre class="query" dir="ltr">SELECT id, username FROM users
+WHERE username = ? AND password = ?</pre><div id="safeResult" class="result-status" role="status"></div></div>
+            </div>
+          </div>
+          <div class="explain-panel"><div class="panel-head"><span class="panel-symbol">✦</span><div><h2 data-i18n="whatHappened">ماذا حدث ولماذا؟</h2><p data-i18n="reasoningHint">الشرح يتغير حسب المثال الذي تختاره.</p></div></div><p id="sqlExplanation" class="explain-copy"></p><div class="code-tip"><strong data-i18n="realRule">القاعدة الصحيحة في التطبيق الحقيقي:</strong><code dir="ltr">$stmt = $pdo-&gt;prepare('SELECT * FROM users WHERE username = ?');</code><code dir="ltr">$stmt-&gt;execute([$username]); // then password_verify(...)</code></div></div>
+        </section>
+
+        <section id="crypto" class="page" aria-labelledby="cryptoTitle" hidden>
+          <div class="page-kicker">LAB 02 <span> / </span> ENCRYPTION</div><h1 id="cryptoTitle" class="page-title" data-i18n="cryptoHeading">تشفير حقيقي أمامك</h1><p class="page-desc" data-i18n="cryptoIntro">اكتب رسالة تجريبية، ثم شفّرها بخوارزمية AES-256-GCM عبر متصفحك، وحاول فكها بالمفتاح الصحيح أو الخاطئ.</p>
+          <div class="notice"><strong>AES-256-GCM</strong><span data-i18n="cryptoNote">هذا وضع حديث مع تحقق من سلامة البيانات؛ محاضرتكم تستخدم AES-256-CBC. أرفقنا تطبيق PHP مستقلًا بنمط CBC وHMAC للتمرين المطابق للمحاضرة.</span></div>
+          <div class="playgrid"><div class="panel"><div class="panel-head"><span class="panel-symbol">◇</span><div><h2 data-i18n="encrypt">تشفير الرسالة</h2><p data-i18n="encryptHelp">ملاحظة: لا تدخل أسرارك الحقيقية في مشروع تجريبي.</p></div></div>
+            <div class="field"><label for="plainText" data-i18n="plainText">النص الأصلي (Plaintext)</label><textarea id="plainText" rows="5" maxlength="4000">Hello Web Security!</textarea></div><div class="field"><label for="cryptoKey" data-i18n="passphrase">عبارة المرور التجريبية</label><input type="password" id="cryptoKey" value="ClassroomDemo-2026!" minlength="8" maxlength="128" autocomplete="new-password"><small data-i18n="keyRule">8 أحرف على الأقل. اشتقاق المفتاح بـ PBKDF2 + Salt عشوائي.</small></div><button id="encryptRun" class="btn btn-primary btn-full" type="button" data-i18n="doEncrypt">تشفير AES الآن ←</button></div>
+            <div class="panel"><div class="panel-head"><span class="panel-symbol">⌁</span><div><h2 data-i18n="decrypt">فك تشفير الرسالة</h2><p data-i18n="decryptHelp">انسخ الناتج المشفر هنا، أو استخدم الناتج التلقائي.</p></div></div><div class="field"><label for="cipherText" data-i18n="cipherText">النص المشفر (Base64)</label><textarea id="cipherText" rows="5" dir="ltr" spellcheck="false" placeholder="Base64..."></textarea></div><button type="button" class="btn btn-outline btn-full" id="decryptRun" data-i18n="doDecrypt">فك التشفير ←</button><div class="decrypt-result"><strong data-i18n="decryptedMessage">النص المستعاد</strong><p id="decryptedText" dir="auto" role="status" data-i18n="waiting">بانتظار التشغيل...</p></div></div></div>
+          <div id="cryptoStatus" class="inline-status" role="status" aria-live="polite"></div><div class="three-facts"><div><strong>KEY</strong><p data-i18n="factKey">يُشتق من عبارة المرور؛ لا نخزنه على خادم.</p></div><div><strong>IV / Nonce</strong><p data-i18n="factIv">12 بايت عشوائية جديدة لكل رسالة في GCM.</p></div><div><strong>SALT</strong><p data-i18n="factSalt">16 بايت عشوائية جديدة لاشتقاق المفتاح.</p></div></div>
+        </section>
+
+        <section id="passwords" class="page" aria-labelledby="hashTitle" hidden>
+          <div class="page-kicker">LAB 03 <span> / </span> PASSWORD HASHING</div><h1 id="hashTitle" class="page-title" data-i18n="hashHeading">كلمات المرور ليست رسائل مشفّرة</h1><p class="page-desc" data-i18n="hashIntro">التشفير يمكن فكه بالمفتاح، أما تخزين كلمات المرور فيحتاج خوارزمية تجزئة بطيئة ومخصّصة مثل bcrypt أو Argon2id.</p>
+          <div class="info-tiles"><div class="info-tile"><span class="bad-mark">✕</span><h3>MD5 / SHA-256</h3><p data-i18n="fastHash">سريعة جدًا وتسمح بتجربة أعداد ضخمة من التخمينات؛ غير مناسبة مباشرة لتخزين كلمات المرور.</p></div><div class="info-tile safe-tile"><span class="good-mark">✓</span><h3>bcrypt / Argon2id</h3><p data-i18n="slowHash">خوارزميات مخصصة لكلمات المرور مع Salt وعامل كلفة؛ للمشاريع الجديدة غالبًا يُفضّل Argon2id عند توفره.</p></div></div>
+          <div class="playgrid"><div class="panel"><div class="panel-head"><span class="panel-symbol">▣</span><div><h2 data-i18n="hashExperiment">تجربة Hash تعليمية</h2><p data-i18n="hashCaution">نستخدم SHA-256 فقط لتوضيح أثر الـ Salt، وليس لتخزين كلمات المرور.</p></div></div><div class="field"><label for="hashInput" data-i18n="samplePassword">كلمة مرور وهمية للتجربة</label><input type="text" id="hashInput" autocomplete="off" value="student123" maxlength="128"></div><button type="button" id="hashRun" class="btn btn-primary btn-full" data-i18n="runSalt">ولّد نتيجتين بملحين مختلفين</button><div class="hash-output" id="hashOutput" aria-live="polite"><p class="muted" data-i18n="hashPlaceholder">اختر التشغيل لتشاهد قيمتين مختلفتين لنفس النص.</p></div></div>
+          <div class="panel"><div class="panel-head"><span class="panel-symbol">⚙</span><div><h2 data-i18n="phpReal">تجربة PHP حقيقية (مرفقة)</h2><p data-i18n="phpRealHelp">الملف المرفق يعمل محليًا ويستخدم password_hash / password_verify الحقيقيتين.</p></div></div><pre class="query php-snippet" dir="ltr">$hash = password_hash($password, PASSWORD_BCRYPT);
+$valid = password_verify($input, $hash);</pre><div class="php-steps"><div>01 <span data-i18n="phpStep1">شغّل خادم PHP محليًا.</span></div><div>02 <span data-i18n="phpStep2">افتح php-labs/password-demo.php.</span></div><div>03 <span data-i18n="phpStep3">لاحظ اختلاف Hash في كل مرة ونجاح التحقق.</span></div></div><p class="muted" data-i18n="phpAvailability">تجربة bcrypt الحقيقية في ملفات التسليم للتشغيل المحلي فقط؛ Netlify لا يشغّل PHP.</p></div></div>
+          <div class="explain-panel"><h2 data-i18n="bigDifference">الفرق في سطر واحد</h2><p data-i18n="passwordRule">Encryption → يمكن استعادة البيانات بالمفتاح. Hashing → لا يوجد فك تشفير؛ نتحقق من التطابق بعملية verification. ولا يعني ذلك أن كلمات المرور الضعيفة لا يمكن تخمينها.</p></div>
+        </section>
+
+        <section id="quiz" class="page" aria-labelledby="quizTitle" hidden>
+          <div class="page-kicker">CHALLENGE <span> / </span> SELF-ASSESSMENT</div><h1 id="quizTitle" class="page-title" data-i18n="quizHeading">اختبر فهمك لأمن الويب</h1><p class="page-desc" data-i18n="quizIntro">بنك من 72 سؤالًا من موضوعات المحاضرات، مع تصنيف حسب الموضوع والمستوى، واختبار مرن وتصحيح فوري دون حساب.</p>
+          <div class="quiz-wrap"><div id="quizStart" class="quiz-welcome"><div class="quiz-emblem">✦</div><h2 data-i18n="readyQuiz">جاهز للتحدي؟</h2><p data-i18n="readyQuizDesc">اختر إجابتك، ثم شاهد التفسير. ستظهر نتيجتك في النهاية ويمكنك حفظها محليًا.</p><div class="quiz-specs"><span data-i18n="eightQuestions">72 سؤالًا</span><span data-i18n="instantFeedback">تصحيح فوري</span><span data-i18n="noTracking">بدون تتبع</span></div><div class="quiz-config" aria-label="إعدادات الاختبار">
+                <div class="field"><label for="quizTopic" data-i18n="quizTopicLabel">الموضوع</label><select id="quizTopic">
+                  <option value="all" data-i18n="topicAll">كل المواضيع</option><option value="basics" data-i18n="topicBasics">أساسيات الويب</option><option value="sqli" data-i18n="topicSqli">حقن قواعد البيانات</option><option value="crypto" data-i18n="topicCrypto">التشفير</option><option value="passwords" data-i18n="topicPasswords">كلمات المرور</option><option value="sessions" data-i18n="topicSessions">الجلسات وHTTPS</option><option value="pentest" data-i18n="topicPentest">اختبار الاختراق</option>
+                </select></div>
+                <div class="field"><label for="quizLevel" data-i18n="quizLevelLabel">الصعوبة</label><select id="quizLevel"><option value="all" data-i18n="levelAll">كل المستويات</option><option value="easy" data-i18n="levelEasy">مبتدئ</option><option value="medium" data-i18n="levelMedium">متوسط</option><option value="hard" data-i18n="levelHard">متقدم</option></select></div>
+                <div class="field"><label for="quizLength" data-i18n="quizLengthLabel">عدد الأسئلة</label><select id="quizLength"><option value="10">10</option><option value="20">20</option><option value="40">40</option><option value="all" data-i18n="lengthAll">جميع الأسئلة المتاحة</option></select></div>
+              </div><p id="quizAvailable" class="quiz-available" aria-live="polite"></p>
+              <button type="button" class="btn btn-primary" id="quizBegin" data-i18n="beginNow">ابدأ الآن ←</button></div>
+          <div id="quizPlaying" hidden><div class="quiz-progress-line"><span id="quizIndex"></span><span id="quizCounter"></span></div><div class="progress-track"><div id="quizProgress" class="progress-inner"></div></div><h2 id="questionTitle" class="question-title"></h2><div id="answerOptions" class="answer-options"></div><div id="answerFeedback" class="answer-feedback" aria-live="polite" hidden></div><button type="button" class="btn btn-primary" id="quizNext" hidden data-i18n="nextQuestion">السؤال التالي ←</button></div>
+          <div id="quizFinished" hidden><div class="quiz-emblem">★</div><p class="tiny-label" data-i18n="completed">COMPLETED</p><h2 id="quizScore"></h2><p id="quizVerdict" class="muted"></p><div class="quiz-finish-actions"><button type="button" class="btn btn-primary" id="quizAgain" data-i18n="retry">إعادة الاختبار</button><button type="button" class="btn btn-outline" id="quizSave" data-i18n="saveResults">حفظ نتيجتي TXT</button></div><h3 data-i18n="quizReviewTitle">مراجعة الأسئلة والإجابات</h3><div class="answer-summary" id="quizSummary"></div></div></div>
+        </section>
+
+        <section id="about" class="page" aria-labelledby="aboutTitle" hidden>
+          <div class="page-kicker">ABOUT <span> / </span> THE PROJECT</div><h1 id="aboutTitle" class="page-title" data-i18n="aboutHeading">تعلّم بالتجربة، لا بالمشاهدة فقط</h1><p class="page-desc" data-i18n="aboutIntro">مشروع بونص تعليمي لمساق Web Security. هدفه تبسيط أفكار المحاضرات بتمارين قصيرة قابلة للتجربة والمشاركة مع الطلبة.</p><div class="about-grid"><div class="panel"><h2 data-i18n="objectives">الأهداف التعليمية</h2><ul class="rich-list"><li data-i18n="obj1">شرح خطورة دمج مدخلات المستخدم مباشرة داخل استعلامات SQL.</li><li data-i18n="obj2">توضيح دور Prepared Statements في فصل الأوامر عن البيانات.</li><li data-i18n="obj3">تنفيذ تشفير وفك تشفير حقيقي بالمفتاح الصحيح.</li><li data-i18n="obj4">تمييز Encryption عن Password Hashing ودور Salt.</li><li data-i18n="obj5">قياس الفهم بأسئلة ذات تغذية راجعة فورية.</li></ul></div><div class="panel"><h2 data-i18n="scope">النطاق والخصوصية</h2><ul class="rich-list"><li data-i18n="scope1">المحاكاة خاصة ببيانات وهمية، ولا تختبر مواقع حقيقية.</li><li data-i18n="scope2">التشفير يتم داخل المتصفح باستخدام Web Crypto API.</li><li data-i18n="scope3">لا توجد حسابات مستخدمين أو إعلانات أو تحليلات أو اتصالات API.</li><li data-i18n="scope4">تطبيق PHP اختياري ضمن الملفات لمطابقة مختبرات المحاضرات.</li><li data-i18n="scope5">الاختبار التعليمي ليس شهادة أو تقييمًا جامعيًا رسميًا.</li></ul></div></div><div class="strip"><div><strong data-i18n="localFirst">مصمم لظروف الاتصال غير المستقر</strong><p data-i18n="localFirstDesc">النسخة الأساسية ملفات ثابتة، يمكن تشغيلها بدون استضافة، ويصبح المحتوى متاحًا دون اتصال بعد تحميله.</p></div><button type="button" class="btn btn-white" data-go="home" data-i18n="backHome">العودة للرئيسية</button></div><p class="course-ref" data-i18n="refText">المادة المرجعية: Web Security Overview، Encryption & Decryption، Encrypted Password، SQL Injection (محاضرات المساق المرفقة).</p></section>
+      </main>
+      <footer class="footer"><span>WEBSEC LAB <span class="muted">© 2026 · EDUCATIONAL DEMO</span></span><span data-i18n="footerNote">استخدم فقط في التعليم وبيئات تملك تصريحًا لاختبارها.</span></footer>
+    </div>
+  </div>
+</body>
+</html>
